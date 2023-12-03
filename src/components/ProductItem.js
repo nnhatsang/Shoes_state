@@ -5,7 +5,7 @@ export default class ProductItem extends Component {
     const { item, setStateModal } = this.props;
     // console.log(item);
     return (
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-700 duration-500">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-300  hover:dark:bg-slate-700  duration-500">
         <button
           data-modal-target="default-modal"
           data-modal-toggle="default-modal"
